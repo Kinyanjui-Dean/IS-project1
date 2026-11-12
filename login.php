@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html><head><title>Login</title><link rel="stylesheet" href="style.css"></head>
 <body><div class="card">
-  <h2>Login</h2>
+  <h2>CAT2 Login</h2>
   <?php if ($msg) echo "<div class='msg $cls'>" . htmlspecialchars($msg) . "</div>"; ?>
   <form method="POST">
     <input name="username" placeholder="Username" required>
